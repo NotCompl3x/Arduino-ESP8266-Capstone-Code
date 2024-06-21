@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL4JM1T1oO"
-#define BLYNK_TEMPLATE_NAME "Hybee"
-#define BLYNK_AUTH_TOKEN "ZpcVD11-ZYllAy6aCyuu8LWKlTdmZghD"
+#define BLYNK_TEMPLATE_ID " "
+#define BLYNK_TEMPLATE_NAME " "
+#define BLYNK_AUTH_TOKEN " "
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -10,8 +10,8 @@
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "TUP-Hybrid Beehive";
-char pass[] = "Hyb33_TUP";
+char ssid[] = " ";
+char pass[] = " ";
 
 #define DHTPIN 2          // Mention the digital pin where you connected 
 #define DHTTYPE DHT11     // DHT 11  
