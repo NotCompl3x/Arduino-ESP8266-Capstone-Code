@@ -13,7 +13,7 @@
 #define ECHOPIN 6 // Digital pin connected to the echo pin of the ultrasonic sensor
 EasyUltrasonic ultrasonic;
 
-//Initialise Arduino to NodeMCU (14=Rx & 15=Tx)
+//Initialise Arduino to NodeMCU 
 SoftwareSerial nodemcu(10, 11);
 
 //MPU6050
