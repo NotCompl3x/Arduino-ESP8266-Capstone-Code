@@ -4,11 +4,11 @@
 
 
 /* Fill-in your Template ID (only if using Blynk.Cloud) */
-#define BLYNK_TEMPLATE_ID   "TMPLxXF12mgf"
+#define BLYNK_TEMPLATE_ID   " "
 
 // adafruit io
-#define IO_USERNAME  "nuzlocke11"
-#define IO_KEY       "aio_aUBX058wlkLDVI21RJPk7J82gREd"
+#define IO_USERNAME  " "
+#define IO_KEY       " "
 
 #define ARDUINOJSON_ENABLE_COMMENTS 1
 #include <SoftwareSerial.h>
@@ -25,12 +25,12 @@ SoftwareSerial nodemcu(D6, D5);
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "k3XzPLnyPBiAe75nJ80zJN_zeKwEFtbz";
+char auth[] = " ";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "TUP-Hybrid Beehive";
-char pass[] = "Hyb33_TUP";
+char ssid[] = " ";
+char pass[] = " ";
 
 float h;
 float t;
@@ -115,19 +115,19 @@ void loop()
     
     Serial.println(col);
     
-    Serial.println(AcY);// 19
+    Serial.println(AcY);
    
-    Serial.println(m1);// 7389
+    Serial.println(m1);
     
-    Serial.println(m2);// 12
+    Serial.println(m2);
     
-    Serial.println(m3);// 19
+    Serial.println(m3);
     
-    Serial.println(m4);// 12
+    Serial.println(m4);
     
-    Serial.println(Acy);// 19
+    Serial.println(Acy);
     
-    Serial.println(AcZ);// 12
+    Serial.println(AcZ);
   }
   
 }
